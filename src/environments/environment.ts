@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  hubConnectionURL: 'http://192.168.10.25:5264/chatsocket',
+  broadcastURL: 'http://192.168.10.25:5264/api/Chat/send',
 };
 
 /*
